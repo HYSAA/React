@@ -43,13 +43,13 @@ const page=(
  )
 
 
-const Navbar=() =>{
-return(    
-    <div>
-    <h1>Im learning react!</h1>
-    </div>
-)
-}
+// const Navbar=() =>{
+// return(    
+//     <div>
+//     <h1>Im learning react!</h1>
+//     </div>
+// )
+// }
 
 ReactDOM.render(
     <div>
