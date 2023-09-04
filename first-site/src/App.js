@@ -1,39 +1,23 @@
  
 import './App.css';
-
+import reactLogo  from './react.png';
 import React from 'react';
-import { ReactDOM } from 'react-dom';
+import  ReactDOM  from 'react-dom';
 
 function navbar() {
   return (
-    <div className='forms'>
-    <nav>
-    <h1>MY WEBSITE</h1>
-    <ul className="pricing">Pricing</ul>
-    <ul className="About">About</ul>
-    <ul className="Contact">Contact</ul>
-    
-    
-
-</nav>
-</div>
+    <div className='menu'>
+    <ul>
+      <img src={reactLogo} width={100} alt="react logo"/>
+      <h1>Fun Facts about react</h1>
+      <li>was first released in 2013</li>
+      <li>was originally created by Jordan Walke</li>
+      <li>has well over 100k stars on Github</li>
+      <li>is maintained by Facebook</li>
+      <li>Powers thousands of enterprise apps,including mobile apps</li>
+    </ul>
+    </div>
   );
 }
-// const test = () =>{
-// return(
-//    <div className='test'>
-//    <p>Hello</p>
 
-//    </div>
-
-// )
-
-// }
-
-// export default App;
-
-
-
-// ReactDOM.render(navbar,document,getElementbyId("root"))
-// export default test
 export default navbar

@@ -1,11 +1,15 @@
-import { ReactDOM } from 'react-dom';
-import './App.css';
-import React from 'react';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div>
+     <div className='menu'>
     <ul>
-      <img src="./react.png" alt="react logo"/>
+      <img src={reactLogo} width={100} alt="react logo"/>
       <h1>Fun Facts about react</h1>
       <li>was first released in 2013</li>
       <li>was originally created by Jordan Walke</li>
@@ -14,7 +18,7 @@ function App() {
       <li>Powers thousands of enterprise apps,including mobile apps</li>
     </ul>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
