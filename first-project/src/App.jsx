@@ -1,30 +1,23 @@
 import './App.css'
-import reactLogo from "./assets/react.svg"
-/**
-Challenge: 
+import reactLogo from "./assets/react-logo.png"
+import React from 'react'
 
-Part 2: 
-- Add a `header` element with a nested `nav` element. Inside the `nav`,
-  include a `img` element with the image of the React logo inside
-  (src="./react-logo.png") and make sure to set the width to something
-  more manageable so it doesn't take up the whole screen
-- Add an `h1` with some text describing the page. (E.g. "Reasons
-  I'm excited to learn React"). Place it above the ordered list.
-- Add a `footer` after the list that says: 
-    "© 20xx <last name here> development. All rights reserved."
+function Header(){
+ return(
+<header>
+<nav>
+<img src={reactLogo} width="200px" />
+</nav>
+</header>
+  )
+  }
+  
 
- */
 function App(){
 return(
-
 <div>
-  <header>
-    <nav>
-    <img src={reactLogo} width={100} alt="react logo"/>
-    </nav>
-  </header>
+  <Header ></Header>
     <ul>
-   
     <h1>Fun Facts about react</h1>
     <li>was first released in 2013</li>
     <li>was originally created by Jordan Walke</li>
@@ -36,6 +29,7 @@ return(
 </div>
 )
 }
+
 export default App
 
 
