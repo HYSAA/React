@@ -1,6 +1,7 @@
 import './App.css'
 import reactLogo from "./assets/react-logo.png"
 import React from 'react'
+// import Header from './Header.jsx'
 
 function Header(){
  return(
@@ -11,8 +12,6 @@ function Header(){
 </header>
   )
   }
-  
-
 function App(){
 return(
 <div>
