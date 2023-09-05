@@ -8,7 +8,6 @@ return(
     <nav>
     <img src={ReactLogo} width="100px" />
     <ul classname="Menu">
-    
       <li>Pricing</li>
       <li>About</li>
       <li>Contact</li>
