@@ -5,9 +5,35 @@ div{
   /* margin-top: 10%; */
   text-align: center;
 }
-.Menu{
-  justify-content: center;
+.nav{
   display: flex;
-  list-style: none;
-  
+  justify-content: space-between;
+  align-items: center;
+ 
+
+  border-bottom: 3px solid black; 
+  padding: 10px;
+  margin: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.List{
+  display: flex;
+  list-style-type: none;
+}
+.List > li {
+  padding: 10px;
+}
+.Blist{
+  list-style-type: none;
+}
+.img{
+  width: 100px;
+}
+.footer{
+ 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+background-color: beige;
 }
