@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react'
-import Header from './Header.jsx'
+import reactLogo from './assets/react-logo.png';
+
 function Header(){
  return(
 <header>
@@ -13,7 +14,7 @@ function Header(){
   
 function App(){
 return(
-<div>
+<div className='myApp'>
   <Header ></Header>
     <ul>
     <h1>Fun Facts about react</h1>
@@ -23,20 +24,11 @@ return(
     <li>is maintained by Facebook</li>
     <li>Powers thousands of enterprise apps,including mobile apps</li>
     </ul>
-    <Practice></Practice>
+
     <footer>I miss u</footer>
 </div>
 )
 }
 
-function Practice(){
-return(
-<nav className="container">
-            <div>Home</div>
-            <div>Search</div>
-            <div>Logout</div>
-        </nav>
-)
-}
 
-export default Practice
+export default App
