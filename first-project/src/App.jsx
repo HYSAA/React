@@ -43,8 +43,7 @@
 
 import React, { useState } from "react";
 
-
-const App = () =>{
+const Addition = () =>{
 
   const[firstNumber,setFirstNumber]=useState("")
   const[secondNumber,setSecondNumber]=useState("")
@@ -55,10 +54,17 @@ const App = () =>{
   const b= parseInt(secondNumber);
   setSum(a+b);
   console.log(setSum)
-
-
   }
 
+
+
+
+}
+
+
+
+
+const App = () =>{
   return(
   <div className="Addition">
   <h1>Enter First Number</h1>
@@ -69,9 +75,9 @@ const App = () =>{
   />
   <br/>
 
-  <h2>Enter Second Number</h2>
+  <h1>Enter Second Number</h1>
   <input type="number" placeholder="Second Number" 
-  onChange={(event)=>setSecondNumber(event.target.value)}/>
+  onChange={(event)=>setSecondNumber(event.target.value)}/> <br/>
  
 
  <button onClick={Addition}>Add</button>
