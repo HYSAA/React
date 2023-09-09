@@ -25,7 +25,7 @@ return(
     <li>Powers thousands of enterprise apps,including mobile apps</li>
     </ul>
 
-    <footer>I miss u</footer>
+    <footer>I miss u too</footer>
 </div>
 )
 }
