@@ -1,7 +1,7 @@
-
+import React from 'react';
 import './App.css';
-import ReactLogo from './react-logo.png'
 import Header from './Header.js'
+import Footer from './Footer.js'
 
 
 function Body() {
@@ -17,13 +17,7 @@ function Body() {
   );
 }
 
-function Footer(){
-return(
-  <div className="footer">
-  <small>© 2021 Ziroll development. All rights reserved.</small>
-  </div>
-)
-}
+
 
 function Page(){
 return(
