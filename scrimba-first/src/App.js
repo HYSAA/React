@@ -21,8 +21,6 @@ return(
 function Body() {
   return (
   <div>
-
-   
   <h1>Reasons I'm excited to learn React</h1>
   <ul className="Blist">
     <li>1.It's a popular library</li> 
