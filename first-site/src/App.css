@@ -10,6 +10,7 @@ div{
   text-align: center;
 }
 .nav{
+  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
