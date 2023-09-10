@@ -1,22 +1,8 @@
 
 import './App.css';
 import ReactLogo from './react-logo.png'
+import Header from './Header.js'
 
-function Header(){
-return(
-  <header>
-    <nav className="nav">
-    <img src={ReactLogo} className="img" alt="react" />
-    <ul className="List">
-      <li>Pricing</li>
-      <li>About</li>
-      <li>Contact</li>
-   
-    </ul>
-    </nav>
-  </header>
-)
-}
 
 function Body() {
   return (
