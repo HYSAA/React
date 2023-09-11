@@ -1,6 +1,18 @@
-div{
-display: flex;
-text-align: center;
-justify-content: center;
+.nav{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
 
+}
+.flex-right{
+
+    margin-left: auto;
+}
+img{
+ padding: 5px;
+width: 50px;
+}
+.myApp{
+    justify-content: center;
+    margin-left: 10%;
 }

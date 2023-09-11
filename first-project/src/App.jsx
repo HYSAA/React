@@ -4,9 +4,16 @@ import reactLogo from './assets/react-logo.png';
 
 function Header(){
  return(
-<header>
-<nav>
-<img src={reactLogo} width="200px" />
+  // <div className='nav'></div>
+<header className='container'>
+<nav className='nav'>
+<img src={reactLogo}  />
+<div className='flex-item'>
+<p>React Facts</p>
+</div>
+<div className="flex-right">
+<p>React Course-Project 1</p>
+</div>
 </nav>
 </header>
   )
@@ -24,8 +31,7 @@ return(
     <li>is maintained by Facebook</li>
     <li>Powers thousands of enterprise apps,including mobile apps</li>
     </ul>
-
-    <footer>I miss u too AJ</footer>
+    {/* <footer>I miss u too AJ</footer> */}
 </div>
 )
 }
