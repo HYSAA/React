@@ -1,18 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Inter,sans-serif;
+}
+
 .nav{
-    background-color: aqua;
+
     display: flex;
     align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px;
+}
+nav > h3, nav > h4 {
+    margin: 0;
+}
 
+nav > h3 {
+    margin-right: auto;
+    color: #61DAFB;
 }
-.flex-right{
 
-    margin-left: auto;
-}
-img{
- padding: 5px;
-width: 50px;
-}
-.myApp{
-    justify-content: center;
-    margin-left: 10%;
+nav > img {
+    height: 30px;
+    margin-right: 7px;
 }

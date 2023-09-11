@@ -5,17 +5,13 @@ import reactLogo from './assets/react-logo.png';
 function Header(){
  return(
   // <div className='nav'></div>
-<header className='container'>
+
 <nav className='nav'>
 <img src={reactLogo}  />
-<div className='flex-item'>
-<p>React Facts</p>
-</div>
-<div className="flex-right">
-<p>React Course-Project 1</p>
-</div>
+<h3>React Facts</h3>
+<h4>React Course-Project 1</h4>
 </nav>
-</header>
+
   )
   }
   
