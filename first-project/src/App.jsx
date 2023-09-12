@@ -19,7 +19,7 @@ function App(){
 return(
 <div className='myApp'>
   <Header ></Header>
-    <ul>
+    <ul className='name'>
     <h1>Fun Facts about react</h1>
     <li>was first released in 2013</li>
     <li>was originally created by Jordan Walke</li>

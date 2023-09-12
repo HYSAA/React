@@ -27,3 +27,21 @@ nav > img {
     height: 30px;
     margin-right: 7px;
 }
+nav >h4{
+    color: #fdfdfd;
+} 
+.myApp{
+    
+    border: 5px;
+    background-color: #404147;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+li{
+  
+     color: aliceblue; 
+}
+.name::marker{
+    color: red; /* Replace 'red' with your desired color */
+  }
