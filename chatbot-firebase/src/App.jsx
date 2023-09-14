@@ -74,13 +74,19 @@ import './App.css';
 import firebase from 'firebase/compat/app'; 
      import 'firebase/compat/firestore';
      import 'firebase/compat/auth';
-import 'firebase/analytics';
+// import 'firebase/analytics';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  // your config
+    apiKey: "AIzaSyD_DIL1KaqZa28lkPAu7j4Z59TzC8TBHLo",
+    authDomain: "chatbot-firebase-d7b9d.firebaseapp.com",
+    projectId: "chatbot-firebase-d7b9d",
+    storageBucket: "chatbot-firebase-d7b9d.appspot.com",
+    messagingSenderId: "310213925549",
+    appId: "1:310213925549:web:1afeb9ab04bba6919d4424",
+    measurementId: "G-PMTDKRY9M5"
 })
 
 const auth = firebase.auth();
