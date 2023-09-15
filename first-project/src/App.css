@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+
 }
 body{
     margin: 0;
@@ -7,15 +8,16 @@ body{
 }
 
 .nav{
-
+  
     display: flex;
     align-items: center;
     background-color: #21222A;
-    height: 90px;
+
     padding: 30px 25px;
+    border: #61DAFB;
 }
 nav > h3, nav > h4 {
-    margin: 0;
+    margin: 5;
 }
 
 nav > h3 {
@@ -30,18 +32,23 @@ nav > img {
 nav >h4{
     color: #fdfdfd;
 } 
-.myApp{
-    
-    border: 5px;
-    background-color: #404147;
+.myApp {
+
+  border: 5px;
+ 
+   height: 100%;
+    justify-content: center;
+    text-align: center;
+   
 }
 h1{
     color: rgb(255, 255, 255);
 }
 li{
-  
+    list-style-type: none;
      color: aliceblue; 
 }
-.name::marker{
-    color: red; /* Replace 'red' with your desired color */
+
+  ul > li {
+    padding: 5px;
   }

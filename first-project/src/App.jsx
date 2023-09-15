@@ -1,19 +1,7 @@
 import './App.css'
 import React from 'react'
-import reactLogo from './assets/react-logo.png';
+import Header from './Header';
 
-function Header(){
- return(
-  // <div className='nav'></div>
-
-<nav className='nav'>
-<img src={reactLogo}  />
-<h3>React Facts</h3>
-<h4>React Course-Project 1</h4>
-</nav>
-
-  )
-  }
   
 function App(){
 return(
@@ -27,7 +15,7 @@ return(
     <li>is maintained by Facebook</li>
     <li>Powers thousands of enterprise apps,including mobile apps</li>
     </ul>
-    {/* <footer>I miss u too AJ</footer> */}
+  
 </div>
 )
 }
