@@ -40,3 +40,8 @@ div{
 height: max-content;
 background-color: beige;
 }
+
+ul > li > span
+{
+color: black;
+}
