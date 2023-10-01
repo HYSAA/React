@@ -1,5 +1,3 @@
-
-
 // export default App
 import React, { useRef, useState } from 'react';
 import './App.css';
