@@ -6,9 +6,8 @@ function App() {
     <>
     <Contact img src="./images/mr-whiskerson.png" alt="Mr. Whiskerson" 
      name="Mr. Whiskerson" phone="23123" email="aj,anunciado@gmail.com">
-
-
     </Contact>
+  
     <Contact></Contact>
     <Contact></Contact>
     <Contact></Contact>
