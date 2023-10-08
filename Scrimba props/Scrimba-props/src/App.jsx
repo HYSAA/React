@@ -29,7 +29,7 @@ function App() {
     <Joke
     
      num= {2}
-
+   
     
     />
 <Joke
