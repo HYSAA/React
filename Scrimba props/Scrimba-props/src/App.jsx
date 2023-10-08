@@ -25,6 +25,13 @@ function App() {
 
   return (
     <>
+
+    <Joke
+    
+     num= {2}
+
+    
+    />
 <Joke
 setUp="what do you call "
 punchLine=" I miss her"
