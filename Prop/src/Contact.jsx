@@ -1,13 +1,7 @@
 import React from "react"
-import One from './assets/1.jpg'
-
-
 
 export default function Contact(props) {
-    /**
-     * Challenge: Fix the code below to use the `props`
-     * object values in place of the hardcoded values below
-     */
+
     return (
    
         <div className="contact-card">
@@ -18,7 +12,7 @@ export default function Contact(props) {
                 <p>{props.phone}</p>
             </div>
             <div className="info-group">
-                <img src="./images/mail-icon.png" />
+                <img src="./images/mail-icon.png"/>
                 <p>{props.email}</p>
             </div>
         </div>
