@@ -1,4 +1,7 @@
 import React from "react"
+import One from './assets/1.jpg'
+
+
 
 export default function Contact(props) {
     /**
@@ -6,9 +9,9 @@ export default function Contact(props) {
      * object values in place of the hardcoded values below
      */
     return (
-      <props>
+   
         <div className="contact-card">
-            <img src="./images/mr-whiskerson.png"/>
+            <img src={props.image}/>
             <h3>{props.name}</h3>
             <div className="info-group">
                 <img src="./images/phone-icon.png" />
@@ -19,6 +22,6 @@ export default function Contact(props) {
                 <p>{props.email}</p>
             </div>
         </div>
-        </props>
+      
     )
 }
